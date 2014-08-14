@@ -46,6 +46,15 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\engine\io\FileAccess.cs" />
+     <Compile Include="Assets\engine\io\ThreadedJob.cs" />
+     <Compile Include="Assets\engine\io\loadscene.cs" />
+     <Compile Include="Assets\engine\io\sceneLoader.cs" />
+     <Compile Include="Assets\engine\io\threadexample.cs" />
+     <Compile Include="Assets\engine\io\useThread.cs" />
+     <Compile Include="Assets\engine\ui\FloatController.cs" />
+     <Compile Include="Assets\engine\ui\LeanTween.cs" />
+     <Compile Include="Assets\engine\ui\SelectableObject.cs" />
      <Compile Include="Assets\gamedefault.cs" />
      <None Include="Assets\roadmap.txt" />
   </ItemGroup>
