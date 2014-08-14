@@ -1,0 +1,86 @@
+Contact
+
+All?questions?and?submission?may?be?sent?to?joseph@jungleegames.com
+
+Objective
+
+Use Unity to create a simple game to show your understandings of OOP, Unity3d, problem
+
+solving and data driven applications. The game¡¦s purpose is to control a rolling sphere and collide
+with 10 different 
+randomly
+placed cubes of 
+two colors
+
+on a flat plane. The game ends once
+
+each cube is collided or the 60 second timer ends. You and you only may complete this
+
+specification in any way or solution you please. Third party utilities are allowed (ie: XML loading
+library).
+
+Specification
+
+Scenes
+
+Main?Menu?-?Starting?scene?for?game
+¡§Start?game¡¨?button?that?is?loading?¡§Game¡¨?scene
+Top?score?-?that?is?displaying?best?score
+Game?-?Where?this?awesome?game?lives?in
+Where?the?actual?game?is?played?with?the?ball?and?cubes
+After?completion?the?player?should?be?moved?back?to?¡§Main?menu¡¨
+Data
+A static data file (.txt, csv, xml ¡V doesn¡¦t matter) will contain the parameters of the cubes
+that are spawned in the game.This game only should have two defined cubes, but
+flexible for an unlimited amount.Parameters for cubes are: 
+color 
+and 
+points
+ gained
+
+after hitting such cube
+
+
+Map
+Map should be a limited, flat plane.Ten cubes should be spawned randomly on this map.
+Type for each cube should also be chosen randomly.(Types are defined in static data file¡V mentioned above).
+
+Scoring
+
+
+Once the sphere collides with a cube, the score will increment by the defined amount in
+the parameters set by the data.If you collide with a preceding cube of the same color,
+that cube¡¦s score will be multiplied by the current streak of ¡§colliding with the same
+color¡¨.The streak should be displayed on the screen along with your score.
+
+Example
+
+
+Static data defines 
+20 points for blue and 15 points for red 
+
+Gameplay:
+
+Hits blue ¡V gets 20 points
+Hits blue ¡V gets 40 points (20 multiplied by streak = 2)
+Hits blue ¡V gets 60 points (20 multiplied by streak = 3)
+Hits red ¡V gets 15 points (Streak is reset)
+Hits red ¡V gets 30 points (15 multiplied by streak = 2)
+Hits blue ¡V gets 20 points (Streak reset)
+End of Game
+
+There is a timer that counts down from 60 seconds.When the count reaches 0, the
+game is concluded and the summary window displays some ¡§Congratulations you gained
+XYZ scores¡¨.Otherwise, if all cubes are collided with before the timer ends, the game
+ends and the player receives a bonus point of 1 for every second left on the timer.
+
+Required Document(s)
+Please provide us a document with your thoughts on why you chose the solutions for sections Data, Map and Scoring.
+
+ 
+
+ 
+
+
+
+
