@@ -5,25 +5,25 @@ PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 3
   AndroidProfiler: 0
-  defaultScreenOrientation: 4
+  defaultScreenOrientation: 0
   targetDevice: 2
   targetGlesGraphics: 1
   targetResolution: 0
   accelerometerFrequency: 60
-  companyName: DefaultCompany
-  productName: wp-unity-interview
+  companyName: 3DPowerMax
+  productName: VCAR
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   defaultScreenWidth: 1024
   defaultScreenHeight: 768
-  defaultScreenWidthWeb: 960
+  defaultScreenWidthWeb: 800
   defaultScreenHeightWeb: 600
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
   m_ActiveColorSpace: 0
   m_MTRendering: 1
   m_MobileMTRendering: 0
-  m_UseDX11: 1
+  m_UseDX11: 0
   m_Stereoscopic3D: 0
   iosShowActivityIndicatorOnLoading: -1
   androidShowActivityIndicatorOnLoading: -1
@@ -34,8 +34,8 @@ PlayerSettings:
   allowedAutorotateToLandscapeLeft: 1
   useOSAutorotation: 1
   use32BitDisplayBuffer: 1
-  use24BitDepthBuffer: 1
-  defaultIsFullScreen: 1
+  use24BitDepthBuffer: 0
+  defaultIsFullScreen: 0
   defaultIsNativeResolution: 1
   runInBackground: 0
   captureSingleScreen: 0
@@ -67,7 +67,7 @@ PlayerSettings:
   iPhoneBundleIdentifier: com.Company.ProductName
   metroEnableIndependentInputSource: 0
   metroEnableLowLatencyPresentationAPI: 0
-  productGUID: f9a927cec0126a84f92df2936801650b
+  productGUID: f571e36baf738de46967e32192dd0c6a
   iPhoneBundleVersion: 1.0
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 9
@@ -82,7 +82,7 @@ PlayerSettings:
   APKExpansionFiles: 0
   StripUnusedMeshComponents: 0
   iPhoneSdkVersion: 988
-  iPhoneTargetOSVersion: 16
+  iPhoneTargetOSVersion: 10
   uIPrerenderedIcon: 0
   uIRequiresPersistentWiFi: 0
   uIStatusBarHidden: 1
@@ -100,8 +100,15 @@ PlayerSettings:
   AndroidKeystoreName: 
   AndroidKeyaliasName: 
   resolutionDialogBanner: {fileID: 0}
-  m_BuildTargetIcons: []
-  m_BuildTargetBatching: []
+  m_BuildTargetIcons:
+  - m_BuildTarget: 
+    m_Icons:
+    - m_Icon: {fileID: 0}
+      m_Size: 128
+  m_BuildTargetBatching:
+  - m_BuildTarget: Web
+    m_StaticBatching: 0
+    m_DynamicBatching: 1
   webPlayerTemplate: APPLICATION:Default
   m_TemplateCustomTags: {}
   XboxTitleId: 
@@ -144,8 +151,9 @@ PlayerSettings:
   psp2PackagedResourcesPath: 
   flashStrippingLevel: 2
   spritePackerPolicy: 
-  scriptingDefineSymbols: {}
-  metroPackageName: wp-unity-interview
+  scriptingDefineSymbols:
+    2: 
+  metroPackageName: VahicleEditor
   metroPackageLogo: 
   metroPackageLogo140: 
   metroPackageLogo180: 
@@ -155,7 +163,7 @@ PlayerSettings:
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: wp-unity-interview
+  metroApplicationDescription: VahicleEditor
   metroTileLogo80: 
   metroTileLogo: 
   metroTileLogo140: 
@@ -222,5 +230,5 @@ PlayerSettings:
   stvDeviceAddress: 
   firstStreamedLevelWithResources: 0
   unityRebuildLibraryVersion: 9
-  unityForwardCompatibleVersion: 39
+  unityForwardCompatibleVersion: 37
   unityStandardAssetsVersion: 0
