@@ -5,18 +5,18 @@ PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 3
   AndroidProfiler: 0
-  defaultScreenOrientation: 0
+  defaultScreenOrientation: 2
   targetDevice: 2
   targetGlesGraphics: 1
   targetResolution: 0
   accelerometerFrequency: 60
-  companyName: 3DPowerMax
-  productName: VCAR
+  companyName: Unity Technologies
+  productName: Unity Remote 4
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   defaultScreenWidth: 1024
   defaultScreenHeight: 768
-  defaultScreenWidthWeb: 800
+  defaultScreenWidthWeb: 960
   defaultScreenHeightWeb: 600
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
@@ -37,7 +37,7 @@ PlayerSettings:
   use24BitDepthBuffer: 0
   defaultIsFullScreen: 0
   defaultIsNativeResolution: 1
-  runInBackground: 0
+  runInBackground: 1
   captureSingleScreen: 0
   Override IPod Music: 0
   Prepare IOS For Recording: 0
@@ -47,7 +47,7 @@ PlayerSettings:
   forceSingleInstance: 0
   resizableWindow: 0
   useMacAppStoreValidation: 0
-  gpuSkinning: 0
+  gpuSkinning: 1
   xboxPIXTextureCapture: 0
   xboxEnableAvatar: 0
   xboxEnableKinect: 0
@@ -64,10 +64,10 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  iPhoneBundleIdentifier: com.Company.ProductName
-  metroEnableIndependentInputSource: 0
+  iPhoneBundleIdentifier: com.interview.tester
+  metroEnableIndependentInputSource: 1
   metroEnableLowLatencyPresentationAPI: 0
-  productGUID: f571e36baf738de46967e32192dd0c6a
+  productGUID: 5c596556decb141888be121e4494e18f
   iPhoneBundleVersion: 1.0
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 9
@@ -82,11 +82,11 @@ PlayerSettings:
   APKExpansionFiles: 0
   StripUnusedMeshComponents: 0
   iPhoneSdkVersion: 988
-  iPhoneTargetOSVersion: 10
+  iPhoneTargetOSVersion: 18
   uIPrerenderedIcon: 0
   uIRequiresPersistentWiFi: 0
   uIStatusBarHidden: 1
-  uIExitOnSuspend: 0
+  uIExitOnSuspend: 1
   uIStatusBarStyle: 0
   iPhoneSplashScreen: {fileID: 0}
   iPhoneHighResSplashScreen: {fileID: 0}
@@ -103,11 +103,42 @@ PlayerSettings:
   m_BuildTargetIcons:
   - m_BuildTarget: 
     m_Icons:
-    - m_Icon: {fileID: 0}
+    - m_Icon: {fileID: 2800000, guid: c379656594f91445898d48eb96df3e0f, type: 3}
       m_Size: 128
+  - m_BuildTarget: Android
+    m_Icons:
+    - m_Icon: {fileID: 2800000, guid: c94506069dd2c484780fb8bbe4a4eb17, type: 3}
+      m_Size: 144
+    - m_Icon: {fileID: 2800000, guid: c815034ffc16f4a0e98e42b9304188bf, type: 3}
+      m_Size: 96
+    - m_Icon: {fileID: 2800000, guid: fdd4612c583e9480dac1f3782facd476, type: 3}
+      m_Size: 72
+    - m_Icon: {fileID: 2800000, guid: e6d951d4c4e37458f970b728b0e40808, type: 3}
+      m_Size: 48
+    - m_Icon: {fileID: 2800000, guid: 56c95f39c06654eae9f6f8c3c03943db, type: 3}
+      m_Size: 36
+  - m_BuildTarget: iPhone
+    m_Icons:
+    - m_Icon: {fileID: 2800000, guid: cb5a31c1dac864b5f90811c410e7e572, type: 3}
+      m_Size: 152
+    - m_Icon: {fileID: 2800000, guid: c94506069dd2c484780fb8bbe4a4eb17, type: 3}
+      m_Size: 144
+    - m_Icon: {fileID: 2800000, guid: 246bc47f24a854aaea5efe68ae683fc3, type: 3}
+      m_Size: 120
+    - m_Icon: {fileID: 0}
+      m_Size: 114
+    - m_Icon: {fileID: 2800000, guid: cafb14b415d7f4a828994e2c02e28938, type: 3}
+      m_Size: 76
+    - m_Icon: {fileID: 2800000, guid: fdd4612c583e9480dac1f3782facd476, type: 3}
+      m_Size: 72
+    - m_Icon: {fileID: 0}
+      m_Size: 57
   m_BuildTargetBatching:
-  - m_BuildTarget: Web
-    m_StaticBatching: 0
+  - m_BuildTarget: Standalone
+    m_StaticBatching: 1
+    m_DynamicBatching: 1
+  - m_BuildTarget: Android
+    m_StaticBatching: 1
     m_DynamicBatching: 1
   webPlayerTemplate: APPLICATION:Default
   m_TemplateCustomTags: {}
@@ -152,8 +183,10 @@ PlayerSettings:
   flashStrippingLevel: 2
   spritePackerPolicy: 
   scriptingDefineSymbols:
+    1: 
     2: 
-  metroPackageName: VahicleEditor
+    7: 
+  metroPackageName: 
   metroPackageLogo: 
   metroPackageLogo140: 
   metroPackageLogo180: 
@@ -163,7 +196,7 @@ PlayerSettings:
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: VahicleEditor
+  metroApplicationDescription: 
   metroTileLogo80: 
   metroTileLogo: 
   metroTileLogo140: 

@@ -17,15 +17,12 @@ public class generategameobject : MonoBehaviour
 				Instance = this;
 				//InvokeRepeating ("rez_game_object", 2, 0.3f);
 		}
-
-		//	public Rigidbody projectile;
-
+//	public Rigidbody projectile;
 //		public void rez_game_object ()
 //		{
 //				Rigidbody instance = Instantiate (projectile);
 //				instance.velocity = Random.insideUnitSphere * 5;
 //		}
-
 		public void generate_cube ()
 		{
 				

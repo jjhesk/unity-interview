@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{D5CAC1A8-08BB-BD0A-CA6B-736EC0507562}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp-Editor-firstpass</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_5_2;UNITY_4_5;UNITY_ANDROID;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;UNITY_ANDROID_API;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE;ENABLE_DUCK_TYPING</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>M:/installed/UnityEditor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>M:/installed/UnityEditor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Plugins\Editor\FingerGestures\DragRecognizerInspector.cs" />
+     <Compile Include="Assets\Plugins\Editor\FingerGestures\FingerDownDetectorInspector.cs" />
+     <Compile Include="Assets\Plugins\Editor\FingerGestures\FingerEventDetectorInspector.cs" />
+     <Compile Include="Assets\Plugins\Editor\FingerGestures\FingerGesturesEditorUtils.cs" />
+     <Compile Include="Assets\Plugins\Editor\FingerGestures\FingerGesturesInspector.cs" />
+     <Compile Include="Assets\Plugins\Editor\FingerGestures\FingerHoverDetectorInspector.cs" />
+     <Compile Include="Assets\Plugins\Editor\FingerGestures\FingerMotionDetectorInspector.cs" />
+     <Compile Include="Assets\Plugins\Editor\FingerGestures\FingerUpDetectorInspector.cs" />
+     <Compile Include="Assets\Plugins\Editor\FingerGestures\GestureRecognizerInspector.cs" />
+     <Compile Include="Assets\Plugins\Editor\FingerGestures\LongPressRecognizerInspector.cs" />
+     <Compile Include="Assets\Plugins\Editor\FingerGestures\PinchRecognizerInspector.cs" />
+     <Compile Include="Assets\Plugins\Editor\FingerGestures\PointCloudGestureEditor.cs" />
+     <Compile Include="Assets\Plugins\Editor\FingerGestures\PointCloudGestureTemplateInspector.cs" />
+     <Compile Include="Assets\Plugins\Editor\FingerGestures\PointCloudRecognizerInspector.cs" />
+     <Compile Include="Assets\Plugins\Editor\FingerGestures\SwipeRecognizerInspector.cs" />
+     <Compile Include="Assets\Plugins\Editor\FingerGestures\TapRecognizerInspector.cs" />
+     <Compile Include="Assets\Plugins\Editor\FingerGestures\TwistRecognizerInspector.cs" />
+     <None Include="Assets\NGUI\Examples\Shaders\Unlit - Depth Cutout.shader" />
+     <None Include="Assets\Var\HardSurface Shaders\HardSurfacePro Hidden Front Transparent Specular.shader" />
+     <None Include="Assets\Var\Standard Assets\Projectors\Guidelines.txt" />
+     <None Include="Assets\reusable\camera\filter\_Sources\Shaders\_BloomAndFlares\BlendOneOne.shader" />
+     <None Include="Assets\NGUI\ReadMe - 3.6.8.txt" />
+     <None Include="Assets\Resources\Aubergine\Shaders\ImageEffects\NightVisionV2.shader" />
+     <None Include="Assets\Var\HardSurface Shaders\HardSurface Free Opaque Specular.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Particle Shaders\Mobile Multiply Culled.shader" />
+     <None Include="Assets\reusable\camera\filter\_Sources\Shaders\NoiseEffectShaderRGB.shader" />
+     <None Include="Assets\Resources\Aubergine\Shaders\ImageEffects\Bleach.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Text 2.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Miscellaneous Shaders\Mobile Background.shader" />
+     <None Include="Assets\Resources\Aubergine\Shaders\ImageEffects\FakeHDR.shader" />
+     <None Include="Assets\Var\Standard Assets\Projectors\Sources\Shaders\Projector Multiply.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Vertex Colored Shaders\Mobile Transparent Vertex Color.shader" />
+     <None Include="Assets\Var\HardSurface Shaders\HardSurface SFX Depth Write Only.shader" />
+     <None Include="Assets\NGUI\Examples\Models\Orc\Orc Skin.shader" />
+     <None Include="Assets\Var\HardSurface Shaders\HardSurface Free Cut Out Diffuse.shader" />
+     <None Include="Assets\Var\HardSurface Shaders\HardSurfacePro Hidden Front Transparent Diffuse.shader" />
+     <None Include="Assets\NGUI\Examples\Atlases\Wooden\Arimo20.txt" />
+     <None Include="Assets\reusable\camera\filter\_Sources\Shaders\ShowAlphaChannel.shader" />
+     <None Include="Assets\NGUI\Examples\Atlases\Wooden\Arimo14.txt" />
+     <None Include="Assets\Resources\Aubergine\Shaders\ImageEffects\Vintage.shader" />
+     <None Include="Assets\Var\HardSurface Shaders\HardSurfacePro Hidden Front Cut Out Opaque Specular.shader" />
+     <None Include="Assets\Var\HardSurface Shaders\HardSurface Free Cut Out Specular.shader" />
+     <None Include="Assets\Resources\Aubergine\Shaders\ImageEffects\RadialUndistortion.shader" />
+     <None Include="Assets\Resources\Aubergine\Shaders\ImageEffects\Vignette.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Text 1.shader" />
+     <None Include="Assets\Resources\Aubergine\Shaders\ImageEffects\DreamBlur.shader" />
+     <None Include="Assets\Var\Skidmarks\Skidmarks Essentials\Skidmarks.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored 2.shader" />
+     <None Include="Assets\Resources\Aubergine\Shaders\ImageEffects\ThermalVisionV2.shader" />
+     <None Include="Assets\reusable\camera\filter\_Sources\Shaders\_Antialiasing\NFAA.shader" />
+     <None Include="Assets\NGUI\Examples\Shaders\Unlit - Masked Colored.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored 3.shader" />
+     <None Include="Assets\Resources\Aubergine\Shaders\ImageEffects\Displacement.shader" />
+     <None Include="Assets\Plugins\FingerGestures\Readme.txt" />
+     <None Include="Assets\NGUI\Examples\Atlases\Wooden\Arimo18.txt" />
+     <None Include="Assets\Var\HardSurface Shaders\HardSurfacePro Hidden Front Cut Out Opaque Bump.shader" />
+     <None Include="Assets\reusable\camera\filter\_Sources\Shaders\_BloomAndFlares\VignetteShader.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Miscellaneous Shaders\Mobile Detail.shader" />
+     <None Include="Assets\Var\HardSurface Shaders\HardSurfacePro Hidden Front Transparent Bump.shader" />
+     <None Include="Assets\reusable\camera\filter\_Sources\Shaders\BarsEffect.shader" />
+     <None Include="Assets\Var\HardSurface Shaders\HardSurface Free Transparent Diffuse.shader" />
+     <None Include="Assets\reusable\camera\filter\_Sources\Shaders\_Antialiasing\SSAA.shader" />
+     <None Include="Assets\Var\HardSurface Shaders\HardSurface Free Transparent Bump.shader" />
+     <None Include="Assets\NGUI\Examples\Atlases\SciFi\SciFi Font - Header.txt" />
+     <None Include="Assets\reusable\camera\filter\_Sources\Shaders\_Antialiasing\FXAAPreset3.shader" />
+     <None Include="Assets\Resources\Aubergine\Shaders\ImageEffects\BlurV.shader" />
+     <None Include="Assets\Var\HardSurface Shaders\HardSurfacePro Hidden Front Cut Out Bump.shader" />
+     <None Include="Assets\Resources\Aubergine\Shaders\ImageEffects\SimpleBloom.shader" />
+     <None Include="Assets\Resources\Aubergine\Shaders\ImageEffects\Pixelated.shader" />
+     <None Include="Assets\Var\Standard Assets\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\reusable\camera\filter\_Sources\Shaders\frag_ao.cginc" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored 1.shader" />
+     <None Include="Assets\Resources\Aubergine\Shaders\ImageEffects\LensCircle.shader" />
+     <None Include="Assets\roadmap.txt" />
+     <None Include="Assets\Resources\Aubergine\Shaders\ImageEffects\NightVision.shader" />
+     <None Include="Assets\Resources\Aubergine\Shaders\ImageEffects\BlackAndWhite.shader" />
+     <None Include="Assets\Resources\Aubergine\Shaders\ImageEffects\Contours.shader" />
+     <None Include="Assets\NGUI\Examples\Atlases\Fantasy\Fantasy Font - Normal.txt" />
+     <None Include="Assets\Resources\Aubergine\Shaders\ImageEffects\RadialBlur.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored 3.shader" />
+     <None Include="Assets\Resources\Aubergine\Shaders\ImageEffects\Holywood.shader" />
+     <None Include="Assets\Var\HardSurface Shaders\HardSurface Free Cut Out Opaque Bump.shader" />
+     <None Include="Assets\NGUI\Examples\Atlases\Refractive\Refractive Font - Normal.txt" />
+     <None Include="Assets\Resources\Aubergine\Shaders\ImageEffects\LineArt.shader" />
+     <None Include="Assets\Var\HardSurface Shaders\HardSurface Free Opaque.shader" />
+     <None Include="Assets\Var\HardSurface Shaders\HardSurface Free Cut Out Bump.shader" />
+     <None Include="Assets\Var\HardSurface Shaders\HardSurface Free Opaque Bump.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored 2.shader" />
+     <None Include="Assets\Resources\Aubergine\Shaders\ImageEffects\Frost.shader" />
+     <None Include="Assets\Var\HardSurface Shaders\HardSurface Free Opaque Diffuse.shader" />
+     <None Include="Assets\Resources\Aubergine\Shaders\ImageEffects\Posterize.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Text 3.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Packed 2.shader" />
+     <None Include="Assets\Var\HardSurface Shaders\HardSurfacePro Hidden Front Opaque.shader" />
+     <None Include="Assets\Resources\Aubergine\Shaders\ImageEffects\Negative.shader" />
+     <None Include="Assets\Resources\Aubergine\Shaders\ImageEffects\Desaturate.shader" />
+     <None Include="Assets\reusable\camera\filter\_Sources\Shaders\SSAOShader.shader" />
+     <None Include="Assets\reusable\camera\filter\_Sources\Shaders\ConvertDepth.shader" />
+     <None Include="Assets\reusable\camera\filter\_Sources\Shaders\NoiseEffectShaderYUV.shader" />
+     <None Include="Assets\Resources\Aubergine\Shaders\ImageEffects\SobelEdge.shader" />
+     <None Include="Assets\Var\HardSurface Shaders\HardSurfacePro Hidden Front Cut Out Diffuse.shader" />
+     <None Include="Assets\Var\HardSurface Shaders\HardSurface Free Cut Out Opaque Diffuse.shader" />
+     <None Include="Assets\Var\Standard Assets\Projectors\Sources\Shaders\Projector Light.shader" />
+     <None Include="Assets\Resources\Aubergine\Shaders\ImageEffects\StereoAnaglyph-AmberBlue.shader" />
+     <None Include="Assets\Var\HardSurface Shaders\HardSurfacePro Hidden Front Transparent.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Packed 1.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored 1.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap Reflective.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Particle Shaders\Mobile Particles Additive Culled.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored.shader" />
+     <None Include="Assets\Resources\Aubergine\Shaders\ImageEffects\4Bit.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored.shader" />
+     <None Include="Assets\Resources\Aubergine\Shaders\ImageEffects\Tonemap.shader" />
+     <None Include="Assets\Resources\Aubergine\Shaders\ImageEffects\HeightFog.shader" />
+     <None Include="Assets\Resources\Aubergine\Shaders\ImageEffects\LightWave.shader" />
+     <None Include="Assets\Resources\Aubergine\Shaders\ImageEffects\BlurH.shader" />
+     <None Include="Assets\reusable\camera\filter\_Sources\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
+     <None Include="Assets\reusable\camera\filter\_Sources\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Text.shader" />
+     <None Include="Assets\Resources\Aubergine\Shaders\ImageEffects\SinCity.shader" />
+     <None Include="Assets\Var\HardSurface Shaders\HardSurfacePro Hidden Front Opaque Specular.shader" />
+     <None Include="Assets\reusable\camera\filter\_Sources\Shaders\_Antialiasing\DLAA.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Packed.shader" />
+     <None Include="Assets\Var\HardSurface Shaders\HardSurface Free Cut Out Opaque Specular.shader" />
+     <None Include="Assets\reusable\camera\filter\_Sources\Shaders\NoiseAndGrainDX11.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Packed 3.shader" />
+     <None Include="Assets\reusable\camera\filter\_Sources\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Vertex Colored Shaders\Mobile Vertex Colored.shader" />
+     <None Include="Assets\Var\HardSurface Shaders\HardSurfacePro Hidden Front Cut Out Specular.shader" />
+     <None Include="Assets\Resources\Aubergine\Shaders\ImageEffects\Charcoal.shader" />
+     <None Include="Assets\Var\HardSurface Shaders\HardSurface Free Transparent Specular.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap Only.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap AlphaTest.shader" />
+     <None Include="Assets\reusable\camera\filter\_Sources\Shaders\NoiseAndGrain.shader" />
+     <None Include="Assets\Resources\Aubergine\Shaders\ImageEffects\FakeSSAO.shader" />
+     <None Include="Assets\Var\HardSurface Shaders\HardSurfacePro Hidden Front Opaque Bump.shader" />
+     <None Include="Assets\Resources\Aubergine\Shaders\ImageEffects\Pulse.shader" />
+     <None Include="Assets\reusable\camera\filter\_Sources\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
+     <None Include="Assets\NGUI\Examples\Shaders\Unlit - Additive Colored.shader" />
+     <None Include="Assets\Resources\Aubergine\Shaders\ImageEffects\SecurityCamera.shader" />
+     <None Include="Assets\Aubergine\Store Demos\ImageEffects Demo\Readme.txt" />
+     <None Include="Assets\reusable\camera\filter\_Sources\Shaders\_Antialiasing\FXAA2.shader" />
+     <None Include="Assets\Resources\Aubergine\Shaders\ImageEffects\ThermalVision.shader" />
+     <None Include="Assets\Resources\Aubergine\Shaders\ImageEffects\Emboss.shader" />
+     <None Include="Assets\Resources\Aubergine\Shaders\ImageEffects\Spherical.shader" />
+     <None Include="Assets\NGUI\Examples\Atlases\Refractive\Refractive Font - Header.txt" />
+     <None Include="Assets\reusable\camera\filter\_Sources\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
+     <None Include="Assets\NGUI\Examples\Shaders\Refractive.shader" />
+     <None Include="Assets\Var\HardSurface Shaders\HardSurfacePro Hidden Front Cut Out Opaque Diffuse.shader" />
+     <None Include="Assets\Resources\Aubergine\Shaders\ImageEffects\Wiggle.shader" />
+     <None Include="Assets\reusable\camera\filter\_Sources\Shaders\_BloomAndFlares\Blend.shader" />
+     <None Include="Assets\Resources\Aubergine\Shaders\ImageEffects\StereoAnaglyph-GreenMagenta.shader" />
+     <None Include="Assets\reusable\camera\filter\_Sources\Shaders\BlendModesOverlay.shader" />
+     <None Include="Assets\Resources\Aubergine\Shaders\ImageEffects\Amnesia.shader" />
+     <None Include="Assets\NGUI\Examples\Shaders\Unlit - Depth.shader" />
+     <None Include="Assets\NGUI\Examples\Atlases\SciFi\SciFi Font - Normal.txt" />
+     <None Include="Assets\Resources\Aubergine\Shaders\ImageEffects\Waves.shader" />
+     <None Include="Assets\Var\HardSurface Shaders\HardSurface Free Transparent.shader" />
+     <None Include="Assets\reusable\camera\filter\_Sources\Shaders\SimpleClear.shader" />
+     <None Include="Assets\Resources\Aubergine\Shaders\ImageEffects\Godrays.shader" />
+     <None Include="Assets\Resources\Aubergine\Shaders\ImageEffects\Noise.shader" />
+     <None Include="Assets\reusable\camera\filter\_Sources\Shaders\_Antialiasing\FXAA3Console.shader" />
+     <None Include="Assets\NGUI\Examples\Models\Orc Armor\Orc Armor.shader" />
+     <None Include="Assets\Resources\Aubergine\Shaders\ImageEffects\DreamBlurColor.shader" />
+     <None Include="Assets\Resources\Aubergine\Shaders\ImageEffects\Crosshatch.shader" />
+     <None Include="Assets\NGUI\Examples\Resources\Localization.txt" />
+     <None Include="Assets\Resources\Aubergine\Shaders\ImageEffects\Lightshafts.shader" />
+     <None Include="Assets\Resources\Aubergine\Shaders\ImageEffects\Thicken.shader" />
+     <None Include="Assets\Var\HardSurface Shaders\HardSurfacePro Hidden Front Opaque Diffuse.shader" />
+     <None Include="Assets\reusable\camera\filter\_Sources\Shaders\_Antialiasing\FXAAPreset2.shader" />
+     <None Include="Assets\reusable\camera\filter\_Sources\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
+     <None Include="Assets\reusable\camera\filter\_Sources\Shaders\_BloomAndFlares\BlendForBloom.shader" />
+ <Reference Include="UnityEditor.Graphs">
+ <HintPath>M:/installed/UnityEditor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{F6E5DE8E-10B3-5721-765D-468E40C812E1}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

@@ -4,7 +4,7 @@
 QualitySettings:
   m_ObjectHideFlags: 0
   serializedVersion: 5
-  m_CurrentQuality: 4
+  m_CurrentQuality: 3
   m_QualitySettings:
   - serializedVersion: 2
     name: Fastest
@@ -122,11 +122,14 @@ QualitySettings:
     excludedTargetPlatforms: []
   m_PerPlatformDefaultQuality:
     Android: 2
+    BlackBerry: 0
     FlashPlayer: 3
     GLES Emulation: 3
     PS3: 3
     Standalone: 3
-    Web: 4
+    WP8: 0
+    Web: 3
     Wii: 3
+    Windows Store Apps: 0
     XBOX360: 3
     iPhone: 2
