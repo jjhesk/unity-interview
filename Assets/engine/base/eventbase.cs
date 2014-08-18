@@ -32,10 +32,12 @@ public class eventbase : MonoBehaviour
 		protected virtual void game_start_ui ()
 		{
 				if (gameOver != null) {
-						gameOver.enabled = false;
+						//gameOver.enabled = false;
+						gameOver.gameObject.SetActive (false);
 				}
 				if (gamePlay != null) {
-						gamePlay.enabled = true;
+						//gamePlay.enabled = true;	
+						gamePlay.gameObject.SetActive (true);
 				}
 			
 		}
@@ -50,10 +52,12 @@ public class eventbase : MonoBehaviour
 		protected virtual void game_time_over ()
 		{
 				if (gameOver != null) {
-						gameOver.enabled = true;
+						//gameOver.enabled = true;
+						gameOver.gameObject.SetActive (true);
 				}
 				if (gamePlay != null) {
-						gamePlay.enabled = false;
+						//gamePlay.enabled = false;
+						gamePlay.gameObject.SetActive (false);
 				}
 		}
 

@@ -1,6 +1,15 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\engine\data\LoadGameData.cs">
+    <Files>
+      <File FileName="Assets\engine\data\LoadGameData.cs" Line="138" Column="4" />
+      <File FileName="Assets\Plugins\reusable\ui\LeanTween.cs" Line="1392" Column="37" />
+      <File FileName="Assets\engine\data\PlayersScores.cs" Line="28" Column="17" />
+      <File FileName="Assets\engine\action\gameDash.cs" Line="18" Column="4" />
+      <File FileName="Assets\engine\action\gameevent.cs" Line="66" Column="4" />
+      <File FileName="Assets\engine\action\mainengine.cs" Line="27" Column="30" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -1,6 +1,12 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+//[System.Serializable]
+//public class stageCube
+//{
+//
+//}
+
 public class generategameobject : MonoBehaviour
 {
 		public static generategameobject Instance;
@@ -9,6 +15,7 @@ public class generategameobject : MonoBehaviour
 		public Vector2 _area_for_rez;
 		public int totalcubes = 10;
 		public cubebase[] colorReference;
+		//private IList<cubebase> cube_game_stage = new IList<cubebase> ();
 		// Use this for initialization
 		//private int current_objects = 0 ;
 
@@ -17,6 +24,7 @@ public class generategameobject : MonoBehaviour
 				Instance = this;
 				//InvokeRepeating ("rez_game_object", 2, 0.3f);
 		}
+
 //	public Rigidbody projectile;
 //		public void rez_game_object ()
 //		{
@@ -41,12 +49,16 @@ public class generategameobject : MonoBehaviour
 						cube.transform.position = new Vector3 (x, 1f, z);
 						cube.transform.parent = stage.transform;
 						//color configurations
-						
 						if (total_color > 0) {
 								int color_selected = Random.Range (0, total_color);
 								Debug.Log (color_selected);
-								cubebase mcolor = colorReference [color_selected];
-								cube.renderer.materials [0].color = mcolor.color;
+								cubebase baseinfo = colorReference [color_selected];
+								cube.renderer.materials [0].color = baseinfo.color;
+								//cube.GetComponent<ballcontrol> ().setCube = baseinfo;
+								cube.AddComponent ("cubedata");
+								cube.GetComponent<cubedata> ().type = color_selected;
+								cube.GetComponent<cubedata> ().cubeID = cube.GetHashCode ();
+								//cube_game_stage.Add (baseinfo);
 						}
 				}
 							
